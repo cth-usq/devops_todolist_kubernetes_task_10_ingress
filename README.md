@@ -50,10 +50,9 @@ Create a kubernetes manifest for a pod which will containa ToDo app container:
 
 ##### how to validate the changes
 
-1. Run manifests
+1. Run bootstrap 
 
-kubectl apply -f .infrastructure/app
-kubectl apply -f .infrastructure/mysql
+./bootstrap.sh
 
 2. Verify deployment
 
